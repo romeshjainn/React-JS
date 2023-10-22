@@ -6,6 +6,8 @@ import UseEffect from "./01. useEffect/useEffect";
 import { UseEffectB } from "./01. useEffect/useEffect-b";
 import { ParentProp } from "./02. Props & Propstype/parentProps";
 import { FunctionParentProp } from "./02. Props & Propstype/functionalParentProp";
+import { ParentMemo } from "./03. Memo & useMemo/ParentMemo";
+import PasswordValidation from "./Password Validation/PasswordValidation";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,8 +16,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <UseEffect />
       <UseEffectB />
       <ParentProp />
+    <FunctionParentProp/>
+    <ParentMemo/>
     </div> */}
     {/* .................... */}
-    <FunctionParentProp/>
+    <PasswordValidation />
   </React.StrictMode>
 );
