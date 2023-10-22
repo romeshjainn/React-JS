@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const UseEffect = () => {
   const [counter, updateCounter] = useState(0);
   const [count, setCount] = useState(0);
-
+console.log("counter")
   useEffect(() => {
     const interval = setInterval(() => {
       setCount((prevCount) => prevCount + 1);
