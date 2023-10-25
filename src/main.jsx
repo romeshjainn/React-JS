@@ -9,6 +9,8 @@ import { FunctionParentProp } from "./02. Props & Propstype/functionalParentProp
 import { ParentMemo } from "./03. Memo & useMemo/ParentMemo";
 import PasswordValidation from "./Password Validation/PasswordValidation";
 import UseRef from "./4. useRef/useRef";
+import { Todo } from "./Todo/todo";
+import { NitinEcomm } from "./NitinEcomm/NitinEcomm";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -22,6 +24,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <PasswordValidation />
     </div> */}
     {/* .................... */}
-    <UseRef/>
+    {/* <UseRef/> */}
+    {/* <Todo/> */}
+    <NitinEcomm />
   </React.StrictMode>
 );

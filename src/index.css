@@ -1,20 +1,24 @@
-*{
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
+body {
   font-size: 16px;
   font-weight: 600;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
-Main{
+Main {
   border: 2px solid red;
   margin: 1rem 0px;
   padding: 1rem;
 }
-h2{
+h2 {
   color: red;
   background-color: yellow;
 }
