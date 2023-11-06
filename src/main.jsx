@@ -11,6 +11,7 @@ import PasswordValidation from "./Password Validation/PasswordValidation";
 import UseRef from "./4. useRef/useRef";
 import { Todo } from "./Todo/todo";
 import { NitinEcomm } from "./NitinEcomm/NitinEcomm";
+import BigCalendar from "./Calendar Package Testing/bigCalendar";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* .................... */}
     {/* <UseRef/> */}
     {/* <Todo/> */}
-    <NitinEcomm />
+    {/* <NitinEcomm /> */}
+    <BigCalendar/>
   </React.StrictMode>
 );
