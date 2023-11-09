@@ -14,7 +14,8 @@ const CartLayout = () => {
       .then((hello) => setApiData(hello));
   }, []);
   const onAddtoCart = (item) => {
-    dispatch(addToCart(item));
+    const updatedItem = { ...item, quantity: 1 };
+    dispatch(addToCart(updatedItem));
   };
   console.log(cartStore);
   return (
